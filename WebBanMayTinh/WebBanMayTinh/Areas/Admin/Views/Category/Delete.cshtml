@@ -1,0 +1,53 @@
+﻿@model WebBanMayTinh.Models.Category
+
+@{
+    ViewData["Title"] = "Xóa danh mục";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Xóa danh mục</h2>
+
+<form id="deleteForm" asp-area="Admin" asp-controller="Category" asp-action="Delete" method="post">
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" readonly />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- Nút mở modal xác nhận -->
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal">Xóa</button>
+    <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
+
+<!-- Modal xác nhận xóa -->
+<div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmDeleteModalLabel">Xác nhận xóa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa danh mục này?
+            </div>
+            <div class="modal-footer">
+                <!-- Nhấn "Không" đóng modal -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Không</button>
+
+                <!-- Nhấn "Có" để submit form -->
+                <button type="button" class="btn btn-danger" onclick="submitDeleteForm()">Có</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        // Hàm submit form khi nhấn "Có" trong modal
+        function submitDeleteForm() {
+            document.getElementById("deleteForm").submit();
+        }
+    </script>
+}

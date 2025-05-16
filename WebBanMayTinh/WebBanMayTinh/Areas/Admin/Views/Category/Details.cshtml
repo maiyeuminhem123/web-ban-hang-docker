@@ -1,0 +1,88 @@
+﻿@model WebBanMayTinh.Models.Category
+
+@{
+    ViewData["Title"] = "Chi tiết danh mục";
+    Layout = "_Layout";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h3>@Model.Name</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Tên danh mục:</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+
+            <dt class="col-sm-3">Mô tả:</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+        </dl>
+
+        <!-- Danh sách danh mục con -->
+        @if (Model.SubCategories != null && Model.SubCategories.Any())
+        {
+            <h4 class="mt-4">Danh mục con:</h4>
+            <ul class="category-tree">
+                @foreach (var subCategory in Model.SubCategories)
+                {
+                    <li>
+                        <strong>@subCategory.Name</strong>
+                        @if (subCategory.SubCategories != null && subCategory.SubCategories.Any())
+                        {
+                            <ul class="subcategory-tree">
+                                @foreach (var grandChildCategory in subCategory.SubCategories)
+                                {
+                                    <li>@grandChildCategory.Name</li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p class="text-muted">Không có danh mục con.</p>
+        }
+
+        <a asp-area="Admin" asp-controller="Category" asp-action="Index" class="btn btn-secondary mt-3">Quay lại</a>
+    </div>
+</div>
+
+<style>
+    .category-tree {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+
+    .subcategory-tree {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+
+    .category-tree li {
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        background-color: #f8f9fa;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+    }
+
+        .category-tree li:hover {
+            background-color: #e9ecef;
+        }
+
+    .subcategory-tree li {
+        padding: 3px 10px;
+        background-color: #fff;
+        border-left: 2px solid #ff4d4d;
+        margin-left: 5px;
+    }
+
+        .subcategory-tree li:hover {
+            background-color: #f1f1f1;
+        }
+</style>

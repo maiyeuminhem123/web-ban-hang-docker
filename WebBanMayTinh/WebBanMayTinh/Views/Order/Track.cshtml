@@ -1,0 +1,191 @@
+﻿@model WebBanMayTinh.Models.Order
+
+@{
+    ViewData["Title"] = "Quá Trình Vận Chuyển";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid my-4">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+                <h5 class="px-3 mb-3">Quản Lý Đơn Hàng</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Order" asp-action="Details" asp-route-id="@Model.Id">
+                            <i class="bi bi-file-text me-2"></i> Chi Tiết Đơn Hàng
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" asp-controller="Order" asp-action="Track" asp-route-id="@Model.Id">
+                            <i class="bi bi-truck me-2"></i> Quá Trình Vận Chuyển
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <h2 class="text-center mb-4">Quá Trình Vận Chuyển - Mã Đơn: @Model.OrderCode</h2>
+
+            <!-- Timeline trạng thái vận chuyển -->
+            <div class="card shadow-sm p-4 mb-4">
+                <h4 class="mb-4">Trạng Thái Vận Chuyển</h4>
+                <div class="shipping-timeline position-relative mb-5 p-3 rounded" style="background-color: #f8f9fa;">
+                    <div class="progress-line"></div>
+                    <div class="timeline-steps">
+                        <div class="timeline-step @(Model.Status == "Preparing" || Model.Status == "Shipping" || Model.Status == "Delivered" ? "active" : "")">
+                            <div class="timeline-icon">
+                                <i class="bi bi-box-seam"></i>
+                            </div>
+                            <p class="mb-0">Chuẩn bị hàng</p>
+                        </div>
+                        <div class="timeline-step @(Model.Status == "Shipping" || Model.Status == "Delivered" ? "active" : "")">
+                            <div class="timeline-icon">
+                                <i class="bi bi-truck"></i>
+                            </div>
+                            <p class="mb-0">Đang giao</p>
+                        </div>
+                        <div class="timeline-step @(Model.Status == "Delivered" ? "active" : "")">
+                            <div class="timeline-icon">
+                                <i class="bi bi-check-circle"></i>
+                            </div>
+                            <p class="mb-0">Đã giao thành công</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lịch sử trạng thái -->
+                <h4 class="mb-3">Lịch Sử Trạng Thái</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Trạng thái</th>
+                                <th>Thời gian</th>
+                                <th>Ghi chú</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Hiển thị trạng thái "Chờ xử lý" dựa trên OrderDate -->
+                            <tr>
+                                <td><span class="badge bg-warning">Chờ xử lý</span></td>
+                                <td>@Model.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                                <td>Đơn hàng đã được đặt</td>
+                            </tr>
+
+                            <!-- Hiển thị lịch sử trạng thái từ StatusHistory -->
+                            @if (Model.StatusHistory != null && Model.StatusHistory.Any())
+                            {
+                                foreach (var history in Model.StatusHistory.OrderBy(h => h.UpdatedAt))
+                                {
+                                    <tr>
+                                        <td>
+                                            @if (history.Status == "Confirmed")
+                                            {
+                                                <span class="badge bg-success">Đã xác nhận</span>
+                                            }
+                                            else if (history.Status == "Cancelled")
+                                            {
+                                                <span class="badge bg-danger">Đã hủy</span>
+                                            }
+                                            else if (history.Status == "Preparing")
+                                            {
+                                                <span class="badge bg-info">Chuẩn bị hàng</span>
+                                            }
+                                            else if (history.Status == "Shipping")
+                                            {
+                                                <span class="badge bg-primary">Đang giao</span>
+                                            }
+                                            else if (history.Status == "Delivered")
+                                            {
+                                                <span class="badge bg-success">Đã giao thành công</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-secondary">@history.Status</span>
+                                            }
+                                        </td>
+                                        <td>@history.UpdatedAt.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                                        <td>@history.Notes</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="text-start">
+                <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary"><i class="bi bi-arrow-left me-2"></i> Quay lại chi tiết đơn hàng</a>
+            </div>
+        </main>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidebarToggle = document.createElement('button');
+            sidebarToggle.className = 'btn btn-primary d-md-none mb-3';
+            sidebarToggle.innerHTML = '<i class="bi bi-list"></i>';
+            sidebarToggle.setAttribute('data-bs-toggle', 'collapse');
+            sidebarToggle.setAttribute('data-bs-target', '#sidebar');
+            document.querySelector('.container-fluid').prepend(sidebarToggle);
+        });
+    </script>
+}
+
+<style>
+    .badge.rounded-circle {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .d-flex {
+        position: relative;
+    }
+
+        .d-flex > div {
+            position: relative;
+            z-index: 1;
+        }
+
+        .d-flex::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            right: 40px;
+            height: 2px;
+            background: linear-gradient(to right, #28a745 0%, #28a745 @(Model.Status == "Preparing" ? "33%" : Model.Status == "Shipping" ? "66%" : Model.Status == "Delivered" ? "100%" : "0%"), #dee2e6 @(Model.Status == "Preparing" ? "33%" : Model.Status == "Shipping" ? "66%" : Model.Status == "Delivered" ? "100%" : "0%"), #dee2e6 100%);
+            z-index: 0;
+        }
+
+    .sidebar {
+        min-height: 100vh;
+        border-right: 1px solid #dee2e6;
+    }
+
+        .sidebar .nav-link {
+            color: #333;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+            .sidebar .nav-link:hover {
+                background-color: #f8f9fa;
+            }
+
+            .sidebar .nav-link.active {
+                background-color: #007bff;
+                color: white;
+            }
+</style>

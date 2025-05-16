@@ -1,0 +1,16 @@
+# Ignore Docker stuff
+*.log
+*.pid
+*.tar
+*.sock
+
+# Ignore node_modules, vendor, etc. nếu có
+node_modules/
+vendor/
+
+# Ignore local config or env
+.env
+*.env
+
+# Ignore volume data nếu có
+data/

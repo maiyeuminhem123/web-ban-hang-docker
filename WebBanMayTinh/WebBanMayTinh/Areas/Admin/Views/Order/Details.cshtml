@@ -1,0 +1,317 @@
+﻿@model WebBanMayTinh.Models.Order
+
+@{
+    ViewData["Title"] = "Chi Tiết Đơn Hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Main content -->
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h2>Chi Tiết Đơn Hàng #@Model.Id</h2>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Quay lại
+                </a>
+            </div>
+
+            <!-- Timeline trạng thái vận chuyển -->
+            <div class="card shadow-sm p-4 mb-4">
+                <h4 class="mb-4">Trạng Thái Vận Chuyển</h4>
+                <div class="shipping-timeline position-relative mb-5 p-3 rounded" style="background-color: #f8f9fa;">
+                    <div class="progress-line"></div>
+                    <div class="timeline-steps">
+                        <div class="timeline-step @(Model.Status == "Preparing" || Model.Status == "Shipping" || Model.Status == "Delivered" ? "active" : "")">
+                            <div class="timeline-icon">
+                                <i class="bi bi-box-seam"></i>
+                            </div>
+                            <p class="mb-0">Chuẩn bị hàng</p>
+                        </div>
+                        <div class="timeline-step @(Model.Status == "Shipping" || Model.Status == "Delivered" ? "active" : "")">
+                            <div class="timeline-icon">
+                                <i class="bi bi-truck"></i>
+                            </div>
+                            <p class="mb-0">Đang giao</p>
+                        </div>
+                        <div class="timeline-step @(Model.Status == "Delivered" ? "active" : "")">
+                            <div class="timeline-icon">
+                                <i class="bi bi-check-circle"></i>
+                            </div>
+                            <p class="mb-0">Đã giao thành công</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trạng thái đơn hàng -->
+                <h4 class="mb-3">Trạng Thái Đơn Hàng</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Trạng thái:</label>
+                        @if (Model.Status == "Pending")
+                        {
+                            <span class="badge bg-warning status-badge">
+                                <i class="bi bi-clock me-1"></i> Chờ xử lý
+                            </span>
+                            <div class="mt-2 order-actions">
+                                <button class="btn btn-sm btn-success confirm-order me-1" data-id="@Model.Id">
+                                    <i class="bi bi-check-circle"></i> Xác nhận
+                                </button>
+                                <button class="btn btn-sm btn-danger cancel-order" data-id="@Model.Id">
+                                    <i class="bi bi-x-circle"></i> Hủy bỏ
+                                </button>
+                            </div>
+                        }
+                        else if (Model.Status == "Confirmed")
+                        {
+                            <span class="badge bg-success status-badge">
+                                <i class="bi bi-check-square me-1"></i> Đã xác nhận
+                            </span>
+                            <div class="mt-2 order-actions">
+                                <button class="btn btn-sm btn-info prepare-order me-1" data-id="@Model.Id">
+                                    <i class="bi bi-box-seam"></i> Chuẩn bị hàng
+                                </button>
+                            </div>
+                        }
+                        else if (Model.Status == "Preparing")
+                        {
+                            <span class="badge bg-info status-badge">
+                                <i class="bi bi-box-seam me-1"></i> Chuẩn bị hàng
+                            </span>
+                            <div class="mt-2 order-actions">
+                                <button class="btn btn-sm btn-primary ship-order me-1" data-id="@Model.Id">
+                                    <i class="bi bi-truck"></i> Đang giao
+                                </button>
+                            </div>
+                        }
+                        else if (Model.Status == "Shipping")
+                        {
+                            <span class="badge bg-primary status-badge">
+                                <i class="bi bi-truck me-1"></i> Đang giao
+                            </span>
+                            <div class="mt-2 order-actions">
+                                <button class="btn btn-sm btn-success deliver-order me-1" data-id="@Model.Id">
+                                    <i class="bi bi-check-circle"></i> Đã giao
+                                </button>
+                            </div>
+                        }
+                        else if (Model.Status == "Delivered")
+                        {
+                            <span class="badge bg-success status-badge">
+                                <i class="bi bi-check-circle me-1"></i> Đã giao thành công
+                            </span>
+                        }
+                        else if (Model.Status == "Cancelled")
+                        {
+                            <span class="badge bg-danger status-badge">
+                                <i class="bi bi-x-circle me-1"></i> Đã hủy
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary status-badge">@Model.Status</span>
+                        }
+                    </div>
+                </div>
+
+                <h4 class="mt-4 mb-3">Thông tin đơn hàng</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Mã đơn hàng:</label>
+                        <p>@Model.OrderCode</p>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Ngày đặt:</label>
+                        <p>@Model.OrderDate.ToString("dd/MM/yyyy HH:mm:ss")</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Tổng tiền:</label>
+                        <p class="text-success fw-bold">@Model.TotalAmount.ToString("N0")đ</p>
+                    </div>
+                </div>
+
+                <h4 class="mt-4 mb-3">Thông tin khách hàng</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Họ và tên:</label>
+                        <p>@Model.CustomerName</p>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Số điện thoại:</label>
+                        <p>@Model.PhoneNumber</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Email:</label>
+                        <p>@Model.Email</p>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label fw-bold">Địa chỉ giao hàng:</label>
+                        <p>@Model.ShippingAddress</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="form-label fw-bold">Ghi chú:</label>
+                        <p>@(string.IsNullOrEmpty(Model.Notes) ? "Không có" : Model.Notes)</p>
+                    </div>
+                </div>
+
+                <h4 class="mt-4 mb-3">Chi tiết sản phẩm</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var detail in Model.OrderDetails)
+                            {
+                                <tr>
+                                    <td>@detail.Product?.Name</td>
+                                    <td>@detail.Quantity</td>
+                                    <td>@detail.UnitPrice.ToString("N0")đ</td>
+                                    <td class="fw-bold">@(detail.UnitPrice * detail.Quantity)
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidebarToggle = document.createElement('button');
+            sidebarToggle.className = 'btn btn-dark d-md-none';
+            sidebarToggle.innerHTML = '<i class="bi bi-list"></i>';
+            sidebarToggle.setAttribute('data-bs-toggle', 'collapse');
+            sidebarToggle.setAttribute('data-bs-target', '#sidebar');
+            document.querySelector('.d-flex').prepend(sidebarToggle);
+
+            // Animation cho các nút trạng thái
+            $('.order-actions button').hover(
+                function() {
+                    $(this).addClass('btn-pulse');
+                },
+                function() {
+                    $(this).removeClass('btn-pulse');
+                }
+            );
+
+            // Xử lý nút "Xác nhận"
+            $('.confirm-order').on('click', function () {
+                const orderId = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn xác nhận đơn hàng này?')) {
+                    updateOrderStatus(orderId, 'Confirm', 'xác nhận');
+                }
+            });
+
+            // Xử lý nút "Hủy bỏ"
+            $('.cancel-order').on('click', function () {
+                const orderId = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn hủy đơn hàng này?')) {
+                    updateOrderStatus(orderId, 'Cancel', 'hủy');
+                }
+            });
+
+            // Xử lý nút "Chuẩn bị hàng"
+            $('.prepare-order').on('click', function () {
+                const orderId = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn chuyển trạng thái sang "Chuẩn bị hàng"?')) {
+                    updateOrderStatus(orderId, 'Prepare', 'chuẩn bị hàng');
+                }
+            });
+
+            // Xử lý nút "Đang giao"
+            $('.ship-order').on('click', function () {
+                const orderId = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn chuyển trạng thái sang "Đang giao"?')) {
+                    updateOrderStatus(orderId, 'Ship', 'chuyển sang đang giao');
+                }
+            });
+
+            // Xử lý nút "Đã giao"
+            $('.deliver-order').on('click', function () {
+                const orderId = $(this).data('id');
+                if (confirm('Bạn có chắc chắn muốn chuyển trạng thái sang "Đã giao thành công"?')) {
+                    updateOrderStatus(orderId, 'Deliver', 'chuyển sang đã giao');
+                }
+            });
+
+            // Hàm xử lý thống nhất cho tất cả các thay đổi trạng thái
+            function updateOrderStatus(orderId, action, actionText) {
+                $.ajax({
+                    url: '@Url.Action("' + action + '", "Order", new { area = "Admin" })',
+                    type: 'POST',
+                    data: { id: orderId },
+                    beforeSend: function() {
+                        // Hiển thị loading
+                        $('body').append('<div class="loading-overlay"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div></div>');
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            // Thông báo thành công với hiệu ứng
+                            showNotification('Đã ' + actionText + ' đơn hàng thành công!', 'success');
+
+                            // Reload trang sau một chút delay để người dùng thấy thông báo
+                            setTimeout(function() {
+                                location.reload();
+                            }, 1500);
+                        } else {
+                            showNotification(response.message || 'Có lỗi xảy ra!', 'error');
+                        }
+                    },
+                    error: function () {
+                        showNotification('Có lỗi xảy ra, vui lòng thử lại.', 'error');
+                    },
+                    complete: function() {
+                        // Ẩn loading
+                        $('.loading-overlay').remove();
+                    }
+                });
+            }
+
+            // Hàm hiển thị thông báo đẹp
+            function showNotification(message, type) {
+                // Xóa thông báo cũ nếu có
+                $('.custom-notification').remove();
+
+                // Tạo thông báo mới
+                const notification = $('<div>').addClass('custom-notification ' + type);
+                const icon = type === 'success' ?
+                    '<i class="bi bi-check-circle-fill"></i>' :
+                    '<i class="bi bi-exclamation-circle-fill"></i>';
+
+                notification.html(icon + ' ' + message);
+                $('body').append(notification);
+
+                // Hiển thị notification với animation
+                setTimeout(function() {
+                    notification.addClass('show');
+                }, 10);
+
+                // Tự động ẩn sau 3 giây
+                setTimeout(function() {
+                    notification.removeClass('show');
+                    setTimeout(function() {
+                        notification.remove();
+                    }, 300);
+                }, 3000);
+            }
+        });
+    </script>
+}
+

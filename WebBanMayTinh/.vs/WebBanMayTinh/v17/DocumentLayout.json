@@ -1,0 +1,782 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\views\\category\\createsub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\views\\category\\createsub.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\shoppingcart\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\shoppingcart\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\shoppingcart\\paymentmethod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\shoppingcart\\paymentmethod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\buildpcpromotion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\buildpcpromotion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\controllers\\productcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\controllers\\productcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\repositories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\repositories\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\repositories\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\repositories\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\shared\\components\\megacategorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\shared\\components\\megacategorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\shared\\components\\categorymenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\viewcomponents\\categorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\viewcomponents\\categorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\viewcomponents\\megacategorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\viewcomponents\\megacategorymenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\hometechnicalservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\hometechnicalservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\technews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\technews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\repairservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\repairservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\data\\componentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\data\\componentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\models\\pcbuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\models\\pcbuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\warrantycheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\warrantycheck.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\home\\tradein.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\home\\tradein.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\models\\renderviewtostringasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\models\\renderviewtostringasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\product\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\paypalcheckoutsdk\\core\\paypalhttpexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\paypalcheckoutsdk\\core\\paypalhttpexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|d:\\\u0111\u1ED3 \u00E1n c\u01A1 s\u1EDF\\webbanmaytinh_add_category\\webbanmaytinh\\webbanmaytinh\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CA430D7E-001B-4968-B4B3-1BD23895B3E4}|WebBanMayTinh\\WebBanMayTinh.csproj|solutionrelative:webbanmaytinh\\views\\payment\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RenderViewToStringAsync.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\RenderViewToStringAsync.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Models\\RenderViewToStringAsync.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\RenderViewToStringAsync.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Models\\RenderViewToStringAsync.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:57:09.678Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAAANgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T20:28:20.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAuwP4BAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:18:12.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T17:33:17.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentMethod.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\ShoppingCart\\PaymentMethod.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\ShoppingCart\\PaymentMethod.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\ShoppingCart\\PaymentMethod.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\ShoppingCart\\PaymentMethod.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T08:43:55.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\ShoppingCart\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\ShoppingCart\\OrderDetails.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\ShoppingCart\\OrderDetails.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\ShoppingCart\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T08:44:26.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateSub.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Category\\CreateSub.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Views\\Category\\CreateSub.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Category\\CreateSub.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Views\\Category\\CreateSub.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T18:12:53.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Details.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwD4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T15:40:08.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwDsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T18:03:57.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T18:13:05.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwKYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:21:05.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowEgBAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:43:16.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAAAC8BAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T15:47:06.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwIEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T15:23:33.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController1.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\ProductController1.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Controllers\\ProductController1.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\ProductController1.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Controllers\\ProductController1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:58:50.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BuildPcPromotion.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\BuildPcPromotion.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\BuildPcPromotion.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\BuildPcPromotion.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\BuildPcPromotion.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAwwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T19:29:34.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\_ProductList.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\_ProductList.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\_ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T14:44:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T14:44:55.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:44:17.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\CategoryService.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Repositories\\CategoryService.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\CategoryService.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Repositories\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:17:26.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Models\\Category.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\Category.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Models\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:53:15.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\appsettings.json",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\appsettings.json",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\appsettings.json",
+              "RelativeToolTip": "WebBanMayTinh\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T18:25:37.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:47:34.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAowK8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:51:42.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwC0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T18:58:57.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Repositories\\ICategoryService.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\ICategoryService.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Repositories\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:47:25.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Shared\\Components\\MegaCategoryMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Shared\\Components\\MegaCategoryMenu\\Default.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Shared\\Components\\MegaCategoryMenu\\Default.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Shared\\Components\\MegaCategoryMenu\\Default.cshtml",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAALsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T14:46:18.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Shared\\Components\\CategoryMenu\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T14:45:44.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "RelativeToolTip": "WebBanMayTinh\\ViewComponents\\CategoryMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:16:37.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MegaCategoryMenuViewComponent.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\ViewComponents\\MegaCategoryMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\ViewComponents\\MegaCategoryMenuViewComponent.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\ViewComponents\\MegaCategoryMenuViewComponent.cs",
+              "RelativeToolTip": "WebBanMayTinh\\ViewComponents\\MegaCategoryMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T17:14:02.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:47:16.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeTechnicalService.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\HomeTechnicalService.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\HomeTechnicalService.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\HomeTechnicalService.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\HomeTechnicalService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T19:26:16.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TechNews.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\TechNews.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\TechNews.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\TechNews.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\TechNews.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T19:25:25.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RepairService.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\RepairService.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\RepairService.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\RepairService.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\RepairService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T19:25:50.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ComponentData.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Data\\ComponentData.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Data\\ComponentData.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Data\\ComponentData.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Data\\ComponentData.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T19:39:25.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Component.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\Component.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Models\\Component.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\Component.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Models\\Component.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T19:43:22.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PcBuild.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\PcBuild.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Models\\PcBuild.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Models\\PcBuild.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Models\\PcBuild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T19:40:17.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "WarrantyCheck.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\WarrantyCheck.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\WarrantyCheck.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\WarrantyCheck.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\WarrantyCheck.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T19:26:57.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TradeIn.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\TradeIn.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Home\\TradeIn.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Home\\TradeIn.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Home\\TradeIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T19:26:35.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:30:50.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Product\\Display.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Product\\Display.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Product\\Display.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Product\\Display.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:02:11.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwE4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T14:29:23.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Services\\EmailSender.cs",
+              "RelativeToolTip": "WebBanMayTinh\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:44:54.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "PayPalHttpException.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\PayPalCheckoutSdk\\Core\\PayPalHttpException.cs",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\PayPalCheckoutSdk\\Core\\PayPalHttpException.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\PayPalCheckoutSdk\\Core\\PayPalHttpException.cs",
+              "RelativeToolTip": "WebBanMayTinh\\PayPalCheckoutSdk\\Core\\PayPalHttpException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:44:51.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T17:43:16.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Payment\\Success.cshtml",
+              "RelativeDocumentMoniker": "WebBanMayTinh\\Views\\Payment\\Success.cshtml",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00C1n C\u01A1 S\u1EDF\\WebBanMayTinh_add_category\\WebBanMayTinh\\WebBanMayTinh\\Views\\Payment\\Success.cshtml",
+              "RelativeToolTip": "WebBanMayTinh\\Views\\Payment\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T18:32:03.66Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

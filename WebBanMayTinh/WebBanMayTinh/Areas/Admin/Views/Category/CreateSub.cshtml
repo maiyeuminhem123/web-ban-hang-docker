@@ -1,0 +1,33 @@
+﻿@model WebBanMayTinh.Models.Category
+
+@{
+    ViewData["Title"] = "Tạo danh mục con";
+    Layout = "_Layout";
+}
+
+<h2>Tạo danh mục con</h2>
+
+<h4>Danh mục cha: @ViewBag.ParentName</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="CreateSub">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ParentId" /> <!-- Ẩn ParentId -->
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label">Tên danh mục</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" /> <!-- Script cho validation -->
+}

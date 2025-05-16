@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: ./WebBanMayTinh
+      dockerfile: Dockerfile
+    ports:
+      - "8888:80"
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=WebBanMayTinh;User Id=sa;Password=yourStrong(!)Password;TrustServerCertificate=True
+    volumes:
+      - dataprotection-keys:/root/.aspnet/DataProtection-Keys
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: "yourStrong(!)Password"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+
+volumes:
+  dataprotection-keys:
+  mssql-data:
